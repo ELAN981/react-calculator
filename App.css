@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+
+  }
+
+  .App{
+    display: inline-block;
+    margin-top: 50px;
+    border: 2px solid gray;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;  
+    height: fit-content;
+
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 1rem;
+  }
+  input {
+    display: block;
+    margin-bottom: 20px;
+  }
+  button {
+    border: 1px solid gray;
+    background: rgb(182, 180, 180);
+    margin-right: 5px;
+  }
+ .first button:nth-last-child(2),
+ .first :nth-last-child(1) {
+    background: tomato;
+    color: white;
+  }
